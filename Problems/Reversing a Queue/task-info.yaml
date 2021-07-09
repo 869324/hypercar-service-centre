@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    reversed_queue = deque()
+    ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8931
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8931">JetBrains
+    Academy</a></html>
+  time: Sat, 26 Sep 2020 15:46:35 UTC
+record: -1

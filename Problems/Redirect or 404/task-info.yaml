@@ -1,0 +1,22 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from django.shortcuts import redirect, Http404
+    from django.views import View
+
+
+    class TodoView(View):
+        all_todos = []
+
+        def delete(self, request, todo, *args, **kwargs):
+            ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7341
+status: Failed
+feedback:
+  message: |
+    Failed. Expect HttpResponseRedirect, get type
+  time: Sun, 27 Sep 2020 13:05:25 UTC
+record: -1

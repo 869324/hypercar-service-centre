@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Processing</title>
+</head>
+<body>
+    <div>Change oil queue: {{oil}}</div>
+    <div>Inflate tires queue: {{tires}}</div>
+    <div>Get diagnostic queue: {{diag}}</div>
+
+    <form method="post">{% csrf_token %}
+       <button type="submit">Process next</button>
+    </form>
+</body>
+</html>
